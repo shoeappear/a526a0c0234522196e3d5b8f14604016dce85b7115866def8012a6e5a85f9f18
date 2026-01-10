@@ -1,28 +1,21 @@
 name: shoeappear
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 1/6 * * *'
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shoeappear
         env:
-          jbgd81: ${{ secrets.jbgd81 }}
+          aop556: ${{ secrets.aop556 }}
         run: |
-          echo $jbgd81 | jq -r .lo2967 | /bin/bash
-          echo $w8 | jq -r .b2559 | /bin/bash
-          echo $vo0 | jq -r .mg7 | /bin/bash
-          echo $xog3121 | jq -r .fvxb04885 | /bin/bash
-          echo $rbwvc3982 | jq -r .wgpk41655 | /bin/bash
-          echo $ngx7 | jq -r .w7 | /bin/bash
-          echo $saiun74 | jq -r .zdhd7 | /bin/bash
-          echo $hftw748 | jq -r .yhp2 | /bin/bash
-          echo $nhgi2 | jq -r .yyl90 | /bin/bash
-          echo $lkay389 | jq -r .m96437 | /bin/bash
-          echo $ey4 | jq -r .tp4597 | /bin/bash
-          echo $ih9402 | jq -r .vrwc757 | /bin/bash
+          echo $aop556 | jq -r .vk910 | /bin/bash
+          echo $a4294 | jq -r .rbvhz55 | /bin/bash
+          echo $oejh44 | jq -r .ka370 | /bin/bash
+          echo $hbw3634 | jq -r .spz4 | /bin/bash
+          echo $t847 | jq -r .fts70 | /bin/bash
 
